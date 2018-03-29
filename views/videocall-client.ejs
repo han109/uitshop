@@ -1,0 +1,90 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Chat Live Stream UIT SHOP</title>
+	<link rel="icon" href="http://uitshop.azurewebsites.net/wp-content/uploads/2017/11/Springfieldmallregular-8.png">
+	<script src="jquery-3.2.1.js"></script>
+	<script src="socket.io.js"></script>
+	<script src="videocall.js"></script>
+	<script src="jquery/jquery.js"></script>
+	<script src="peer.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="layout.css">
+</head>
+
+
+<body>
+	<div id ="header" >
+		<nav id="nen" class="navbar navbar-inverse navbar-static-top" role="navigation">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-6">
+						<a href="https://uitshop.herokuapp.com/" title="Kênh Live Stream và Chat Realtime của UIT SHOP" rel="home"><img width="100px" height="100px" src="http://uitshop.azurewebsites.net/wp-content/uploads/2017/12/antenna-1-1.png" class="header-logo-dark" alt="UIT Shop"><b class="lead">UIT SHOP - Kênh Live Stream và Chat Realtime</b></a>
+					</div>
+
+					<div class="col-md-4">	
+						<a href="http://uitshop.azurewebsites.net/" title="Trở về Website UIT SHOP" rel="home"><img width="100px" height="100px" src="http://uitshop.azurewebsites.net/wp-content/uploads/2017/12/Springfieldmallregular-8.png" class="header-logo-dark" alt="UIT Shop"><b class="lead">Trở về Website UIT SHOP</b></a>
+
+					</div>
+					<div id="tabVideoChat" class="col-md-2"><a href="admin"><b class="lead">LIVE STREAM</b></a></div>
+				</div>
+			</div> <!-- header -->
+		</nav>
+	</div>
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-9 content">
+				<div class="post">
+					<div class="panel panel-info newpost">
+						<div class="panel-heading">
+							<h2 class="panel-title"><span class="glyphicon glyphicon-facetime-video"></span> VIDEO CALL</h2>
+						</div>
+						<div class="panel-body">
+							<button id="thamgia">Tham gia</button>
+							<div id="VideoCallclient">
+								
+         						<button id="Stoptcall"><a href="videocall-client">Kết thúc cuộc trò chuyện</a></button>
+            					<h3 id="id-peer">Your Id: </h3>
+								
+								<video id="localStream" width="300" controls></video>
+								
+            					<video id="remoteStream" width="300" controls></video>
+           					    
+							</div>
+						</div>
+					</div>
+				</div> <!--post-->
+			</div>
+
+
+			<div class="col-md-3 sidebar">
+				<div class="panel panel-info newpost">
+					<div class="panel-heading">
+						<h2 class="panel-title"><span class="glyphicon glyphicon-flash"></span> Call</h2>
+					</div>
+					
+					<div class="panel-body">
+						<div class="row">
+							<div id ="UserOnlineadminclient">
+								<div id="boxTitle"><b>Danh sách Tư vấn viên online</b></div>
+								<div id="boxContentadmin">...</div>
+							</div>
+						</div>
+
+					</div>
+				</div><!--newpost/!-->
+			</div>
+		</div>
+	</div>
+
+	<div id="footer">
+		<div class="container">
+			<p><b>Copyright 2017 © <a href="http://uitshop.azurewebsites.net/">UIT SHOP<a></b></p>
+		</div>
+
+	</div><!--footer/!-->
+
+</body>
+</html>

@@ -1,0 +1,95 @@
+#LiveStream{
+	width: 50%;
+	/*float:left;*/
+}
+#wrapper{
+	border: solid 1px #81D744; 
+/*	border-color: black;
+transition: all 0.4s ease 0s;*/
+}
+/* #left,#right:{min-width: 300px} */
+#UserOnline{
+	border: solid 1px #81D744;
+	width: auto; 	
+	background-color: white;
+	border-radius: 5px;
+	font-size: 20px;
+	overflow-y: auto;
+}
+#Chat{
+	width: inherit;
+	background-color:white; 
+	font-size: 20px;
+	overflow-y: auto;
+}
+#boxTitle{
+	border-bottom: solid 1px #81D744;
+	padding: 5px;
+	text-align: center;
+
+}
+#boxContent{
+	padding: 5px;
+	width: auto;
+}
+#sayhi{
+	text-align: center;
+	border-bottom: solid 1px #81D744;
+}
+#listMessages{
+	height: 345px;
+	background-color: /*#0000ff;*/ white;
+	margin-bottom: 20px;
+	width: 300px;
+	border: red;
+}
+#txtMessages{
+	background-color: white;
+	width: 100%;
+	height: 40px;
+	font-size: 20px;	
+}
+#wrapper>#LoginForm{
+	width: auto;
+	height: auto;
+	border-color: #81D744;
+
+}
+#txtusername{
+	border: solid 1px #81D744; 
+}
+#ChatForm{
+	width: auto;
+
+}
+
+#nen{
+	background-color: #82d744;
+
+}
+.chu{
+	font-size: 20px;
+	font-family: sans-serif;
+	color: white;
+}
+.navbar-inverse .navbar-brand {
+	color: #3287B8;
+}
+
+#footer{
+	background: #5b5b5b;
+	margin-top: 60px;
+	padding-top: 20px;
+	text-align: center;
+	color: rgba(255,255,255,0.5);
+}
+a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+.panel-title{
+	font-size: 13px;
+}
+h4, .h4 {
+	font-size: 20px;
+}
