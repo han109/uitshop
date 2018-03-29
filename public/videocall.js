@@ -7,7 +7,7 @@ $.ajax({
   data: {
     ident: "ngochan",
     secret: "ee406ed4-2de4-11e8-aba7-c5f3d248a5fe",
-    domain: "uitshop.com",
+    domain: "uitshop.github.io",
     application: "default",
     room: "default",
     secure: 1
